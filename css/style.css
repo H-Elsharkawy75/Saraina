@@ -11583,12 +11583,15 @@ border-bottom: 1px solid #eee;
     box-shadow: inset 0 0 0px white;
     border-radius: 5px;
 }
-.comparePage .PoroctTOCompers .CompareItem .CompareItemINFO .DescriptionBox p {
+.DescriptionBox p {
   font-size: 14px;
   font-weight: 300;
   color: #1e1e1e;
   line-height: inherit;
 }
+  .DescriptionBox p span{
+    font-weight: 500;
+  }
 .comparePage
   .PoroctTOCompers
   .CompareItem
@@ -12461,36 +12464,38 @@ margin-top: 110px !important;
   color: #cfcfcf;
 }
 
-.ProductDetailsPage .ProdcuDatta .BestServ {
+ .BestServ {
 }
-.ProductDetailsPage .ProdcuDatta .BestServ ul {
+ .BestServ ul {
+ display: flex;
 }
-.ProductDetailsPage .ProdcuDatta .BestServ ul li {
+ .BestServ ul li {
   margin-bottom: 15px;
 }
-.ProductDetailsPage .ProdcuDatta .BestServ ul li .SerfvItem {
+ .BestServ ul li .SerfvItem {
   display: flex;
 }
-.ProductDetailsPage .ProdcuDatta .BestServ ul li .SerfvItem .icon {
+ .BestServ ul li .SerfvItem .icon {
   display: block;
   width: 50px;
   text-align: center;
 }
-.ProductDetailsPage .ProdcuDatta .BestServ ul li .SerfvItem .icon span {
+ .BestServ ul li .SerfvItem .icon span {
   font-size: 25px;
   color: #e6a884;
 }
-.ProductDetailsPage .ProdcuDatta .BestServ ul li .SerfvItem .ServInfo {
+ .BestServ ul li .SerfvItem .ServInfo {
 }
-.ProductDetailsPage .ProdcuDatta .BestServ ul li .SerfvItem .ServInfo h2 {
+ .BestServ ul li .SerfvItem .ServInfo h2 {
   color: #484848;
   font-size: 14px;
   font-weight: 500;
 }
-.ProductDetailsPage .ProdcuDatta .BestServ ul li .SerfvItem .ServInfo p {
+ .BestServ ul li .SerfvItem .ServInfo p {
   color: #888888;
   font-size: 13px;
 }
+
 
 .ProductReviwing {
   margin-top: 50px;
@@ -13246,8 +13251,7 @@ margin-top: 110px !important;
   font-weight: 500;
 }
 .LoginPopup .modal-body .formsLogin .form-group p a {
-}
-.LoginPopup .modal-body .formsLogin .form-group .BTNSubMit {
+}.form-group .BTNSubMit {
   display: block;
   width: 100%;
   height: 40px;
@@ -15515,7 +15519,7 @@ font-weight: 600;
     background-image: none !important;
 }
 .swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:hover {
-    background-image: !important;
+    background-image:unset !important;
         outline: 0 !important;
 }
 
@@ -16054,7 +16058,7 @@ border: 1px solid #826172;
     font-size: 13px;
 }
 .SumoSelect .select-all{
-   display: none
+   display: none;
 }
 .SumoSelect>.optWrapper>.options li.opt {
     padding: 4px 0;
@@ -16885,3 +16889,30 @@ display: none;
 
 
 
+
+
+.number-box{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333;
+}
+
+
+.booking-section .BestServ {
+  padding: 12px 20px;
+  background-color:#e6a88433;
+  
+}
+.booking-section .BestServ ul{
+  justify-content: space-between;
+}
+.booking-section .BestServ ul li .SerfvItem{
+  display: block;
+  text-align: center;
+}
+.booking-section .BestServ ul li .SerfvItem .icon{
+  margin: 0 auto;  
+}
