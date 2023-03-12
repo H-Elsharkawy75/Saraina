@@ -1,0 +1,239 @@
+body{
+    direction: rtl;
+    text-align: right;
+    font-family: 'Cairo', sans-serif;
+}
+
+.NewBannerSlider{
+    direction: ltr;
+}
+.main-header .shopping-cart{
+    left: 0;
+    right: auto;
+    transform-origin: top left;
+}
+.NewBannerSlider .owl-nav .owl-next {
+  right: -15px;
+}
+.topHeader .GroupHeaderLinks .MyAccount .dropdown .dropdown-menu {
+    border-radius: 0;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%);
+    padding: 0.5rem 0;
+    border: 0 solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    float: right;
+    text-align: right;
+}
+.ProducList .ProductList-carousel{
+    direction: ltr;
+}
+.ProducList .VewAllBTN a span {
+    transform: rotateY(180deg);
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+.clients-section .VewAllBTN a span{
+        transform: rotateY(180deg);
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+.sidenav-bar .navigation li.dropdown .dropdown-btn {
+  right: unset;
+  left: 0;
+}
+.main-footer .footer-column .widget-title:before {
+  left: unset;
+  right: 0;
+}
+.main-footer .contact-list li .icon {
+  left: unset;
+  right: -15px;
+}
+.social-icon-two li {
+  margin-left: 15px;
+  margin-right: 0px;
+}
+.NewsSubScriptions .NewsSubScriptionsContent .SubscripForm input {
+  direction: rtl;
+}
+
+.main-menu .navigation > li {
+    position: relative;
+    float: right;
+    margin-right: 0;
+    margin-left: 50px;
+}
+.categoryMenu {
+
+    right: -100px !important;
+}
+
+.categoryMenu li a img {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.main-menu .navigation > li > a{
+        font-family: 'Cairo', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+        font-family: 'Cairo', sans-serif;
+}
+.theme-btn {
+ font-family: 'Cairo', sans-serif;
+}
+.list-style-two li {
+ font-family: 'Cairo', sans-serif;
+}
+.main-menu {
+ font-family: 'Cairo', sans-serif;
+}
+.sidenav-bar .navigation {
+ font-family: 'Cairo', sans-serif;
+}
+.sidenav-bar .contact-info-box .info-box strong {
+ font-family: 'Cairo', sans-serif;
+}
+.main-menu .navigation > li > a {
+ font-family: 'Cairo', sans-serif;
+}
+.sec-title .float-text {
+ font-family: 'Cairo', sans-serif;
+}
+.banner-section .swiper-slide h2 {
+ font-family: 'Cairo', sans-serif;
+}
+.banner-section .swiper-slide h3 {
+ font-family: 'Cairo', sans-serif;
+}
+.banner-section-two .slide-item h2 {
+ font-family: 'Cairo', sans-serif;
+}
+
+.about-us .about-years h3 {
+ font-family: 'Cairo', sans-serif;
+}
+.about-me .bottom-box .name {
+ font-family: 'Cairo', sans-serif;
+}
+.about-section .content-column .message {
+ font-family: 'Cairo', sans-serif;
+}
+.about-section .list-style-two li {
+  float: right;
+ font-family: 'Cairo', sans-serif;
+}
+.project-section-two .filters li {
+ font-family: 'Cairo', sans-serif;
+}
+.project-detail blockquote {
+ font-family: 'Cairo', sans-serif;
+}
+.contact-page-section .contact-info li strong {
+ font-family: 'Cairo', sans-serif;
+}
+.team-block .other-info li strong {
+ font-family: 'Cairo', sans-serif;
+}
+.pricing-table .price-box .title {
+ font-family: 'Cairo', sans-serif;
+}
+.pricing-tabs .tab-btns li {
+  float: right;
+ font-family: 'Cairo', sans-serif;
+}
+.blog-single blockquote {
+ font-family: 'Cairo', sans-serif;
+}
+.blog-single .post-share-options p {
+ font-family: 'Cairo', sans-serif;
+}
+.main-footer .footer-bottom .copyright-text a {
+ font-family: 'Cairo', sans-serif;
+}
+
+.main-footer .footer-bottom .footer-nav ul li {
+  float: right;
+ font-family: 'Cairo', sans-serif;
+}
+.blog-cat li a {
+ font-family: 'Cairo', sans-serif;
+}
+.comments-area .comment-box .reply-btn {
+  left: 30px;
+    right: auto;
+ font-family: 'Cairo', sans-serif;
+}
+.shop-item .lower-content .name {
+ font-family: 'Cairo', sans-serif;
+}
+
+.sidebar .related-posts .post h4 {
+ font-family: 'Cairo', sans-serif;
+}
+.prod-tabs .tabs-content .tab .title {
+ font-family: 'Cairo', sans-serif;
+}
+.cart-table tbody tr td .prod-title {
+ font-family: 'Cairo', sans-serif;
+}
+.cart-section .cart-options .cart-btn {
+ font-family: 'Cairo', sans-serif;
+}
+.cart-section .coupon-btn {
+ font-family: 'Cairo', sans-serif;
+}
+.cart-section .totals-table .proceed-btn {
+ font-family: 'Cairo', sans-serif;
+}
+.shipping-form button {
+ font-family: 'Cairo', sans-serif;
+}
+.order-box ul li strong {
+ font-family: 'Cairo', sans-serif;
+}
+.time-counter .time-countdown .counter-column {
+ font-family: 'Cairo', sans-serif;
+}
+.coming-soon .emailed-form .text {
+ font-family: 'Cairo', sans-serif;
+}
+.sponsors-outer .sponsors-carousel{
+    direction: ltr
+}
+
+.main-header .shopping-cart .cart-icon {
+    float: right;
+}
+
+.main-header .shopping-cart .shopping-cart-total {
+    float: left;
+}
+.main-header .shopping-cart .shopping-cart-items li {
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
